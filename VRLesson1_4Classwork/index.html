@@ -46,8 +46,42 @@
         <a-cone position="0 4.5 0" height="1.5" radius-bottom="1.1" radius-top="0.1" color="green"></a-cone>
         <a-cone position="0 5.5 0" height="1.5" radius-bottom="0.9" radius-top="0.1" color="green"></a-cone>
         <a-cone position="0 6.5 0" height="1.5" radius-bottom="0.7" radius-top="0.1" color="green"></a-cone>
-      
-      
+
+       <a-box wireframe="true" position="20 4.5 2" width="8" height="9" depth="8">
+        <!--Frame Code Begins-->
+        <a-box position="0 -3.7 0" width="3" height="0.7" depth="5" color="black"></a-box>
+        <a-box  position="-0.7 -3.65 -2.62" width="0.7" height="0.35" depth="0.25" color="Red"></a-box>
+        <a-box  position="0.7 -3.65 -2.62" width="0.7" height="0.35" depth="0.25" color="Red"></a-box>
+        <a-box  position="0 -1.7 0" width="3" height="0.1" depth="3" color="black"></a-box>
+        <a-box  position="0 -1.7 0" width="3" height="0.2" depth="3.3" color="black"></a-box>
+        <a-box  position="0 -3.025 2.15" width="3" height="0.65" depth="0.7" color="black"></a-box>
+        <!--Doors-->
+        <a-box position="1.47482 -3.05 -0.9" width="0.05" height="0.65" depth="1.8" color="black"></a-box>
+        <a-box position="1.47482 -3.05 0.9" width="0.05" height="0.65" depth="1.8" color="black"></a-box>
+        <a-box position="-1.47482 -3.05 -0.9" width="0.05" height="0.65" depth="1.8" color="black"></a-box>
+        <a-box position="-1.47482 -3.05 0.9" width="0.05" height="0.65" depth="1.8" color="black"></a-box>
+        <!--Doors end-->
+        <a-box  rotation="70 0 0" position="-1.39 -2.7 1.8" width="0.2" height="0.1" depth="2" color="black"></a-box>
+        <a-box  rotation="70 0 0" position=" 1.39 -2.7 1.8" width="0.2" height="0.1" depth="2" color="black"></a-box>
+        <a-box  rotation="-70 0 0" position="-1.39 -2.7 -1.8" width="0.2" height="0.1" depth="2" color="black"></a-box>
+        <a-box  rotation="-70 0 0" position=" 1.39 -2.7 -1.8" width="0.2" height="0.1" depth="2" color="black"></a-box>
+        <a-box  rotation="90 0 0" position=" -1.44 -2.7 0" width="0.1" height="0.1" depth="2" color="white"></a-box>
+        <a-box  rotation="90 0 0" position=" 1.44 -2.7 0" width="0.1" height="0.1" depth="2" color="white"></a-box>
+        <!--Frame Code Ends-->
+        <!--Windows Code Begin-->
+        <a-box opacity="0.4" rotation="70 0 0" position=" 0 -2.7 1.8" width="3" height="0.1" depth="2" color="black"></a-box>
+        <!--Windows code End-->
+      <!--Wheels Code Begins-->
+        <a-box wireframe="true" width="8" height="9" depth="8">
+        <a-cylinder position="-1.4 -4 1.5" rotation="0 0 90"  radius="0.5" height="0.4" depth="0.5" color="gray"></a-cylinder>
+        <a-cylinder position="1.4 -4 1.5" rotation="0 0 90"  radius="0.5" height="0.4" depth="0.5" color="gray"></a-cylinder>
+        </a-box>
+        <a-box position="0 0 -3" wireframe="true" width="8" height="9" depth="8">
+        <a-cylinder position="-1.4 -4 1.5" rotation="0 0 90"  radius="0.5" height="0.4" depth="0.5" color="gray"></a-cylinder>
+        <a-cylinder position="1.4 -4 1.5" rotation="0 0 90"  radius="0.5" height="0.4" depth="0.5" color="gray"></a-cylinder>
+        </a-box>
+      <!--Wheels Code Ends-->
+      </a-box>
       <a-plane position="0 0 -1" rotation="-90 0 0" width="50" height="50" color="#7BC8A4"></a-plane>
       <a-sky color="#ECECEC"></a-sky>
       <!-- Camera is added so that you do not "spawn" at the origin -->
