@@ -13,6 +13,7 @@ window.addEventListener("DOMContentLoaded",function() {
 
   //Challenge 7: Create a snowflake at some high position. Don't forget to declare the variable up top.
   loop();
+  loop2();
 })
 
 function loop(){
@@ -20,4 +21,11 @@ function loop(){
   //Challenge 4: Make the cloud fly
   //Challenge 8: Make the snowflake fall
   window.requestAnimationFrame(loop);
+}
+
+function loop2(){
+  Cloud.move();
+  //Challenge 4: Make the cloud fly
+  //Challenge 8: Make the snowflake fall
+  window.requestAnimationFrame(loop2);
 }
