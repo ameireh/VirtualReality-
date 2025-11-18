@@ -8,12 +8,14 @@
       <a-assets>
         <img src="target.png" id="crosshairs"/>
       </a-assets>
-      
-      <a-box id="target" src="#crosshairs" position="0 0 0" depth="0.1" ></a-box>
+
+      <a-box id="wrap" wireframe="true" position="0 -0.45 0" depth="0.1" >
+      <a-box id="target" src="#crosshairs" position="0 -1 0" depth="0.1" ></a-box>
+      </a-box>
 
       <a-plane position="0 0 0" rotation="-90 0 0" width="10" height="10" color="#7BC8A4"></a-plane>
       <a-sky color="#ECECEC"></a-sky>
-      <a-camera position="0 1.4 3"></a-camera>
+      <a-camera wasd-controls="acceleration: 100; fly: true" position=" 0 1.5 0"></a-camera>
     </a-scene>
   </body>
 </html>
